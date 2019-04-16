@@ -12,4 +12,5 @@ Open the `Vertex Cover Problem.pdf` file for the project report.
 
 `$ ./a.out < input.txt` or enter the input manually as the algorithm asks.
 
-
+##### Aditya Gupta (170001002)
+##### Ravi Maurya (170001039)
