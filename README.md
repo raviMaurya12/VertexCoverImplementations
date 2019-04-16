@@ -10,6 +10,6 @@ Open the `Vertex Cover Problem.pdf` file for the project report.
 
 `$ g++ code.cpp`
 
-`$ ./a.out < input.txt`
+`$ ./a.out < input.txt` or enter the input manually as the algorithm asks.
 
 
