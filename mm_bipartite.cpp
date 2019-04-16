@@ -133,13 +133,19 @@ void BipGraph::addEdge(int u, int v)
 // Driver Program
 int main()
 {
-	BipGraph g(4, 4);
-	g.addEdge(1, 2);
-	g.addEdge(1, 3);
-	g.addEdge(2, 1);
-	g.addEdge(3, 2);
-	g.addEdge(4, 2);
-	g.addEdge(4, 4);
+	cout<<"Enter number of vertices on left and right "<<endl;
+	int a,b;
+	cin>>a>>b;
+	BipGraph g(a,b);
+	cout<<"Enter the number of edges "<<endl;
+	int edge;
+	cin>>edge;
+	cout<<"Enter all edges "<<endl;
+	for(int i=0;i<edge;i++){
+		int x,y;
+		cin>>x>>y;
+		g.addEdge(x,y);
+	}
 
 	cout << "Size of maximum matching is " << g.hopcroftKarp()<<endl;
 
